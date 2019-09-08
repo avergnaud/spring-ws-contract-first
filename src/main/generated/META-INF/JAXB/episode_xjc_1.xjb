@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.3.2 
+Voir <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2019.09.08 à 11:05:39 AM CEST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://poc.com/types/helloworld">
+    <schemaBindings map="false">
+      <package name="com.poc.types.helloworld"/>
+    </schemaBindings>
+    <bindings scd="tns:person">
+      <class ref="com.poc.types.helloworld.Person"/>
+    </bindings>
+    <bindings scd="tns:greeting">
+      <class ref="com.poc.types.helloworld.Greeting"/>
+    </bindings>
+  </bindings>
+</bindings>
+
